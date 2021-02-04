@@ -1,0 +1,329 @@
+nav ul {
+    margin-block: -8px;
+    padding-right: 300px;
+    padding-left: 10px;
+    position: fixed;
+    display: flex;
+    background-color:rgb(255, 255, 255);
+
+  }
+ 
+
+  .logo {
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top:-10px;
+    
+    
+    
+  }
+  nav ul li {
+    
+    list-style: none;
+    line-height:30px;
+    list-style: none;
+    font-family: Roboto,arial,sans-serif;
+}
+    nav ul li a {
+        color:rgb(7, 6, 6);
+        padding:10px;
+        font-size:15px;
+        line-height: 30px;
+        text-decoration:none;
+        }
+        li a:hover {
+            color: rgb(9, 191, 236);
+             }    
+             nav ul li ul { display:none;
+             } 
+             
+             nav ul li:hover ul {
+                display:list-item ;
+                position:absolute;
+                margin-top:5px;
+               
+                
+                }
+ nav ul li:hover ul li {
+  float:none;
+           }
+
+ img.displayed
+{
+display: block;
+font-size: 16px;
+font-weight: 400 ;
+margin-right: auto;
+margin-left: auto;
+}
+
+.title{
+ font-family: Arial, sans-serif;
+text-align: center;
+font-size: 34px;
+font-weight: 300;
+line height: 44.2px;
+color:rgb(0, 179, 155);
+
+}
+
+ p {
+
+     padding: 30px;
+    margin-left:75px;
+    margin-right: 20px;
+    margin-bottom: auto
+  justify-content:;
+ text-align: justify;
+ font-size: 16px;
+ overflow: hidden;
+ font-family: 'Roboto', sans-serif;
+font-weight: 400;
+line height:28px ;}
+        
+.wrap { 
+    display: flex;
+    align-items:center}
+
+
+}
+
+.container{
+    display: flex;
+  
+  }
+  
+  .container > div {
+    background-color: #923a3a;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    align-items:center;
+    display: inline;
+  }
+  .parent {
+      text-align: center;
+    box-shadow:yellow;
+    display:flex;
+    justify-content:center;
+  }
+  .enfant1:hover{
+    
+      background-color:rgb(27, 172, 177);
+  }
+  .enfant2:hover{
+    background-color:rgb(75, 38, 212);
+}
+.enfant3:hover{
+    background-color:rgb(9, 37, 37);
+}
+  .enfant1{
+    width: 50px;
+    height: 50px;
+    margin-right: 2%;
+    border-radius: 5%;
+    width:300px;
+    height:350px;
+    background-color:rgb(15, 155, 211)
+  }
+  
+  .enfant2{
+      margin-right: 2%;
+      border-radius: 5%;
+    width:300px;
+    height:350px;
+    background:rgb(78, 58, 255);
+  }
+  .enfant3{
+      justify-content: center;
+      border-radius: 5%;
+    width:300px;
+    height:350px;
+    background:rgb(0, 0, 0);
+  }
+ 
+  .box{
+text-align: center;
+font-family: "Work Sans", Arial, sans-serif;
+font-size: 26px;
+font-weight: 400;
+line-height: 33.8px;
+color: rgb(255, 255, 255);
+  }
+
+
+    .paragraph{
+        text-align: center;
+        text-align:left;
+        font-family: "Work Sans", Arial, sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 28.8px;
+        color: rgb(255, 255, 255);
+    }
+    .select-css{
+ align-items: center;
+
+font-family: Roboto, Arial, sans-serif;
+font-size: 19.2px;
+font-weight: 400;
+Line-height: 24.96px;
+color: rgb(255, 255, 255);
+background-color: rgb(15, 155, 211);
+border: none;
+text-decoration: underline;
+
+    }
+    .select-css:hover{
+        background-color:rgb(27, 172, 177);
+    }
+    .select-css1{
+        align-items: center;
+       
+       font-family: Roboto, Arial, sans-serif;
+       font-size: 19.2px;
+       font-weight: 400;
+       Line-height: 24.96px;
+       color: rgb(255, 255, 255);
+       background-color: rgb(78, 58, 255);
+       border: none;
+       text-decoration: underline;
+       
+           }
+           .select-css1:hover{
+               background-color:rgb(75, 38, 212); 
+           }
+           .select-css2{
+            align-items: center;
+           
+           font-family: Roboto, Arial, sans-serif;
+           font-size: 19.2px;
+           font-weight: 400;
+           Line-height: 24.96px;
+           color: rgb(255, 255, 255);
+           background-color: rgb(0, 0, 0);
+           border: none;
+           text-decoration: underline;
+           
+               }
+               .select-css2:hover{
+                   background-color:rgb(9, 37, 37)
+               }
+               select option[value="0"] {
+                background:  rgb(255, 255, 255);
+              }
+               select option[value="1"] {
+                background: rgb(255, 255, 255);
+              }
+              
+              select option[value="2"] {
+                background:  rgb(255, 255, 255);
+              }
+              
+              select option[value="3"] {
+                background:  rgb(255, 255, 255);
+              }
+              
+              select option[value="4"] {
+                background:  rgb(255, 255, 255);
+              }
+              select option[value="5"] {
+                background:  rgb(255, 255, 255);
+              }select option[value="6"] {
+                background:  rgb(255, 255, 255);
+              }select option[value="7"] {
+                background:  rgb(255, 255, 255);
+              }select option[value="8"] {
+                background:  rgb(255, 255, 255);
+              }select option[value="9"] {
+                background:  rgb(255, 255, 255);
+              }select option[value="10"] {
+                background:  rgb(255, 255, 255);
+              }select option[value="11"] {
+                background:  rgb(255, 255, 255);
+              }select option[value="12"] {
+                background:  rgb(255, 255, 255);
+              }
+
+              .footer{
+
+                font-family: Roboto, Arial, sans-serif;
+
+                font-size: 12px;
+                
+                font-weight: 400;
+                
+                line-height: 15.6px;
+                
+                color: rgb(171, 171, 171)  ;
+                text-align: center;
+
+              }
+
+              .enfant{
+
+                width: 50px;
+                height: 50px;
+                margin-right: 2%;
+                border-radius: 5%;
+                width:300px;
+                height:350px;
+                background-color:rgb(241, 238, 238);
+            
+              }
+              .parent1 {
+                text-align: center;
+              box-shadow:yellow;
+              display:flex;
+              justify-content:center;
+            }
+            a.bouton1 {
+              text-decoration: none;
+                text-align: center;
+                
+                display: flex;
+                text-align: right;
+                padding: 10px 10px; 
+                background: rgb(70, 70, 196); 
+                color: white; 
+                border-radius: 5%;
+                width: 90px;
+                height: 10px;
+            }
+                a.bouton1:hover {
+                background: rgb(5, 59, 109); 
+                }
+                
+                .flex{
+                    display: flex;
+                    justify-content: space-between;
+                }
+                .country{
+                 font-family: 'Roboto', Arial, sans-serif;
+                 font-size: 18px;
+                 font-weight: 400;
+                 line-height: 30px;
+                 font-color: rgb(116, 116, 116);
+                }
+                .enfant:hover{
+    
+                    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+                }
+                .last{
+                   font-family: "Work Sans", Arial, sans-serif;
+
+                    font-size: 30px;
+                    
+                    font-size: 300;
+                    
+                    line-height: 39px;
+                    
+                color: rgb(51, 51, 51);
+                text-align: center;
+
+                }
+
+               
